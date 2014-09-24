@@ -4,6 +4,25 @@
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
               android:gravity="center">
+    <EditText android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/cardNumber"
+            android:hint="Kortnummer"/>
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/saveButton"
+            android:text="@string/saveText"/>
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/saldotekst"/>
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/theButton"
+            android:text="@string/buttonText"
+            android:drawableTop="@android:drawable/ic_popup_sync"/>
 
 </LinearLayout>
 
